@@ -1,0 +1,25 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and artifacts
+data/*.csv
+models/*.keras
+models/*.h5
+results/plots/
+results/reports/
+results/metrics/
+*.log
+
+# OS / editor
+.DS_Store
+.vscode/
